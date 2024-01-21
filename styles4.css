@@ -1,0 +1,24 @@
+body, html{
+  margin: 0;
+  font-family: 'Great Vibes', cursive, sans-serif;
+  padding: 0;
+  height: 100%;
+  color: white;
+}
+
+
+header, section{
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-image: linear-gradient(to bottom right, crimson , navy);
+  opacity: 80%;
+  text-align: center;
+  font-size: 20px;
+}
+.home{
+  color: white;
+}
+.home:hover{
+  color: coral;
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+	<title>EEH_Explore</title>
+	<link rel="stylesheet" href="styles2.css">
+  	<script src="script2.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Engage page</h1>
+	</header>
+			<nav>
+				<ul>
+					<li><a href="index.html" id="home">Home<a/></li>
+					<li><a href="explore.html" >Explore</a></li>
+					<li><a href="engage.html" class="active">Engage</a></li>
+					<li><a href="faq.html">FAQ</a></li>
+					
+				</ul>
+			</nav>
+
+
+	<section id="imageSlider">
+		<div class="slideshow-container">
+
+			<div class="mySlides fade">
+  				<div class="numbertext">1 / 3</div>
+  				<img src="interaction.jpg" style="width:100%">
+  				<div class="text">Interact</div>
+			</div>
+
+			<div class="mySlides fade">
+  				<div class="numbertext">2 / 3</div>
+  				<img src="chat.jpg" style="width:100%">
+  				<div class="text">Chat</div>
+			</div>
+
+			<div class="mySlides fade">
+  				<div class="numbertext">3 / 3</div>
+  				<img src="message.jpg" style="width:100%">
+  				<div class="text">Message</div>
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">❮</a>
+			<a class="next" onclick="plusSlides(1)">❯</a>
+
+		</div>
+		<br>
+
+		<div style="text-align:center">
+  			<span class="dot" onclick="currentSlide(1)"></span> 
+  			<span class="dot" onclick="currentSlide(2)"></span> 
+  			<span class="dot" onclick="currentSlide(3)"></span> 
+		</div>
+
+		
+		
+
+		
+	</section>
+
+	
+
+	<section id="featured-content">
+		<h2>Featured Content</h2>
+			<div style="text-align:center">
+  				
+  					<p>Click on the boxes below:</p>
+			</div>
+
+<!-- Three columns -->
+			<div class="row">
+  				<div class="column" onclick="openTab('b1');" style="background:darksalmon;">
+   				 Overview
+  				</div>
+  				<div class="column" onclick="openTab('b2');" style="background:coral;">
+    			Content Creation
+  				</div>
+  				<div class="column" onclick="openTab('b3');" style="background:chocolate;">
+   	 			Interactive Features
+  				</div>
+			</div>
+
+<!-- Full-width columns: (hidden by default) -->
+			
+			<div id="b1" class="containerTab" style="display:none;background:darksalmon;">
+  				<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  				
+  					<div class="engage">
+  						<h2>We've redefined interaction</h2>
+  						<p>Our Engage page is your interactive playground, designed to foster meaningful connections, spark discussions, and bring your online presence to life.</p>
+  					 	
+  					
+  					</div>
+  				
+			</div>
+
+			<div id="b2" class="containerTab" style="display:none;background:coral;">
+  				<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  					
+  					<div class="engage">
+  					<h2>Take center stage by contributing your own content.</h2>
+  					<p>Share your stories, expertise, or creative works. The Engage page is a canvas for your expression, and we can't wait to see what you bring to the table!</p>
+  					 
+  					
+  					</div>
+  				
+			</div>
+
+			<div id="b3" class="containerTab" style="display:none;background:chocolate;">
+  				<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  					<div class="engage">
+  					<h2>Explore unique interactive features.</h2>
+  					<p>Such as polls, challenges, and collaborative space where ideas flourish and creativity knows no bounds.</p>
+  					 
+  							
+  					
+  					
+  					</div>
+			</div>
+			
+
+		
+	</section>
+
+
+
+	<section id="newsletter">
+		<h2>Subscribe to Our Newsletter</h2>
+		<form>
+			<input type="email" placeholder ="Enter your email">
+			<button type="submit">Subscribe</button>
+		</form>
+		
+	</section>
+	<section>
+		<div id="followUsSection">
+		<h2>Follow Us</h2>
+		<div id="followUsSection">
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-twitter"></a>
+		<a href="#" class="fa fa-instagram"></a>
+		<a href="#" class="fa fa-linkedin"></a>
+		</div>
+	</section>
+
+	<footer>
+		<p>&copy; 2023 Explore Engage Hub. All rights reserve.</p>
+	</footer>
+
+
+</body>
+</html>

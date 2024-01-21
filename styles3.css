@@ -1,0 +1,30 @@
+body, html{
+  margin: 0;
+  font-family: 'Great Vibes', cursive, sans-serif;
+  padding: 0;
+  height: 100%;
+  color: white;
+  margin-top: 0;
+}
+
+
+header, section, footer{
+  margin-top: 30px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-image: linear-gradient(to bottom right, crimson, navy);
+  opacity: 90%;
+  text-align: left;
+}
+a:hover{
+  text-decoration: underline;
+  color: yellow;
+}
+a{
+  color: white;
+}
+
+* {
+  box-sizing: content-box;
+}
+

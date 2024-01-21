@@ -1,0 +1,107 @@
+body{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header, nav{
+	background-image: linear-gradient(to bottom right, crimson , navy);;
+	color: white;
+	text-align: center;
+	padding: 1em;
+}
+
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+nav li{
+	display: inline;
+	margin-left: 20px;
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+nav a:hover{
+	color: coral;
+}
+
+nav a.active {
+  text-decoration: underline;
+  color: coral;
+  background-color: transparent;
+}
+
+main {
+	padding: 20px;
+}
+section {
+	margin-bottom: 30px;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	background-image: linear-gradient(to bottom right, crimson , navy);
+}
+
+.video-container{
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+video{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.community-spotlight{
+	max-width: 800px;
+	margin: 20px auto;
+}
+
+.spotlight-card{
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.user-story{
+	font-style: italic;
+}
+.user-name{
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.events{
+	max-width: 800px;
+	margin: 20px auto;
+}
+.event-card{
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.event-title{
+	color: #555;
+	margin-top: 5px;
+}
+
+.event-description{
+	margin-top: 10px;
+}
+
+
+
+
